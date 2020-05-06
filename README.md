@@ -4,27 +4,6 @@
 
 [![Download Evolution X](https://img.shields.io/sourceforge/dt/evolution-x.svg)](https://sourceforge.net/projects/evolution-x/files/latest/download)
 
-### Sync ###
+I would advise NOT using anything in my github account. I am learning how this all works and accept zero responsibility if you use anything and it breaks something. Thanks. Feel free to use the projects i've forked from though.
 
-```bash
-
-# Initialize local repository
-repo init -u https://github.com/Evolution-X/manifest -b ten
-
-# Sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-```
-
-### Build ###
-
-```bash
-
-# Set up environment
-$ . build/envsetup.sh
-
-# Choose a target
-$ lunch aosp_$device-userdebug
-
-# Build the code
-$ mka bacon -jX
-```
+The ten-opengapps branch is my for my personal learning. Some devices dont have enough system partition space for full pixel gapps.
