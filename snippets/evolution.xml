@@ -8,6 +8,10 @@
   <remote name="evo-devices"
           fetch="https://github.com/Evolution-X-Devices"
           revision="ten" />
+  
+  <remote name="drfunkenbreakz"
+          fetch="https://github.com/DrFunkenbreakz"
+          revision="ten-slim" />
 
   <!-- External repos -->
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="evo" />
@@ -37,7 +41,7 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="evo" />
   <project path="manifest" name="manifest" remote="evo" />
   <project path="vendor/aosp" name="vendor_aosp" remote="evo" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="evo" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="drfunkenbreakz" />
 
   <!-- Hardware repos -->  
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="evo" />
